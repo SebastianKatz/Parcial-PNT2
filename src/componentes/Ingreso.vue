@@ -167,9 +167,6 @@
       actualizarColor() {
         if (this.totalGastos > this.presupuesto) {
           this.colorTotal = 'red'
-          console.log(this.totalGastos)
-          console.log(this.presupuesto)
-          console.log(this.colorTotal)
         }
       }
     },
